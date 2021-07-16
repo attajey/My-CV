@@ -10,6 +10,12 @@
     margin-top: 21vh;
     text-align: center;
   }
+
+  .bg-pic-projects {
+    background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
 }
 @media all and (min-width: 576px) and (max-width: 767px) {
   .bg-pic {
@@ -22,6 +28,12 @@
     margin-top: 21vh;
     text-align: center;
   }
+
+  .bg-pic-projects {
+    background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .bg-pic {
@@ -33,6 +45,12 @@
   .heading {
     margin-top: 21vh;
     text-align: center;
+  }
+
+  .bg-pic-projects {
+    background: url("../image/Circuit\ Primary-3.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
   }
 }
 
@@ -47,6 +65,12 @@
     margin-top: 21vh;
     text-align: center;
   }
+
+  .bg-pic-projects {
+    background: url("../image/Circuit\ Primary-2.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
 }
 @media all and (min-width: 1200px) {
   .bg-pic {
@@ -58,6 +82,11 @@
   .heading {
     margin-top: 21vh;
     text-align: center;
+  }
+  .bg-pic-projects {
+    background: url("../image/Circuit\ Primary.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
   }
 }
 /* Media is not needed yet !  */
@@ -186,6 +215,11 @@ a {
   font-size: 5vh;
   margin-top: 8vh;
 }
+.heading h5 {
+  color: #dd1133;
+  font-size: 3vh;
+  margin-top: 8vh;
+}
 .custom-btn {
   background: transparent !important;
   border: 3px solid #040b13 !important;
@@ -196,4 +230,29 @@ a {
   background: #040b13 !important;
   color: #dd1133 !important;
   transition: all 0.2s !important;
+}
+
+/* PROJECT STYLES */
+/* 
+.bg-pic-projects {
+  background: url("../image/Circuit\ Primary.svg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  color: black;
+} */
+.project-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: #3a7cc3;
+}
+
+.custom-carousel {
+  margin-top: 35vh;
+}
+
+img {
+  height: 200px;
+  width: 200px;
 }
