@@ -18,12 +18,7 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="https://kit.fontawesome.com/0a28d61694.js" crossorigin="anonymous"></script>
         <script src="./js/typed.min.js"></script>
-
-        <!-- Required Core stylesheet -->
-        <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"> -->
-
-        <!-- Optional Theme stylesheet -->
-        <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"> -->
+        <script src="./js/script.js"></script>
 
         <script>
 			new WOW().init();
@@ -44,13 +39,13 @@
                         <a class="nav-link" href="#">CONTACT</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="#">ABOUT ME</a>
+                        <a class="nav-link" href="./about.html">ABOUT ME</a>
                     </li>
                     <li class="nav-item m-2">
                         <a class="nav-link" href="#">PROJECTS</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" href="./index.html">HOME</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +56,7 @@
         </div>
         <!-- ./Menu -->
         <main class="bg-pic-projects">
-            <div class="container-fluid">
+            <div class="container-fluid pb-5">
                 <div class="row">
                     <div class="col-6 text-center">
                         <div class="heading">
@@ -71,19 +66,43 @@
                     </div>
                 </div>
             </div>
-            <div class="container custom-carousel">
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                      <ul class="glide__slides">
-                        <li class="glide__slide"><img src="./image/Carousel/mother nature.jpg" alt=""></li>
-                        <li class="glide__slide"><img src="./image/Carousel/pet nurse 2.png" alt=""></li>
-                        <li class="glide__slide"><img src="./image/Carousel/my cv.jpg" alt=""></li>
-                      </ul>
+
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="glide">
+                            <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides py-5">
+                                <li class="glide__slide">
+                                    <button class="glide-button-image" type="button" data-toggle="tooltip"
+                                    data-placement="top" title="Click to see details"> 
+                                        <img class="img-fluid" src="./image/Carousel/mother nature.png" alt="Mother Nature Project">
+                                    </button>
+
+                                    <p class="text-monospace font-weight-bolder text-center text-white pt-3">Mother Nature</p>
+                                </li>
+                                <li class="glide__slide">
+                                    <button class="glide-button-image" type="button" data-toggle="tooltip"
+                                    data-placement="top" title="Click to see details">
+                                    <img class=" img-fluid" src="./image/Carousel/pet nurse 2.png" alt="Pet Nurse Project">
+                                    </button>
+                                    <p class="text-monospace font-weight-bolder text-center text-white pt-3">Pet Nurse</p>
+                                </li>
+                                <li class="glide__slide">
+                                    <button class="glide-button-image" type="button" data-toggle="tooltip"
+                                    data-placement="top" title="Click to see details">
+                                    <img class=" img-fluid" src="./image/Carousel/Profile.png" alt="Profile Project">
+                                    </button>
+                                    <p class="text-monospace font-weight-bolder text-center text-white pt-3">Profile</p>
+                                </li>
+                            </ul>
+                            </div>
+                            <div class="glide__arrows" data-glide-el="controls">
+                                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                  </div>
                 </div>
             </div>
 
@@ -104,9 +123,11 @@
                 },
                 autoplay: 3000,
                 hoverpause: true,
-                animationDuration: 1000 
+                animationDuration: 1000 ,
+                gap: 20
             };
             new Glide('.glide', config).mount()
+        
         </script>
 
     </body>
