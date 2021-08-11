@@ -1,22 +1,25 @@
 <html>
     <head>
         <title>
-            My CV
+            Home
         </title>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+
         <link rel="stylesheet" type="text/css" href="./style/style.css" >
 		<link rel="stylesheet" href="./style/animate.css" />
 		<link rel="stylesheet" href="./webfonts/">
-		<link rel="stylesheet" href="style/bootstrap.min.css">
+		<link rel="stylesheet" href="./style/bootstrap.min.css">
         <link rel="stylesheet" href="./style/all.css">
+
         <link rel="icon" href="./image/icon.svg">
+
         <script src="./js/script.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="https://kit.fontawesome.com/0a28d61694.js" crossorigin="anonymous"></script>
+		<script src="./js/wow.min.js"></script>
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/popper.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
         <script src="./js/typed.min.js"></script>
 
         <script>
@@ -25,7 +28,6 @@
 
     </head>
     <body class="text-monospace" onload="myFunction()">
-        <!-- <div id="loader"></div> -->
         <div id="box">
             <ul class="loader-ul">
                 <li class="loader-li"></li>
@@ -35,7 +37,6 @@
                     <li class="loader-li"></li>
             </ul>
         </div>
-        
         <div id="after-load">
             <!-- Menu  -->
             <div class="container-fluid px-0">
@@ -60,7 +61,14 @@
                         </ul>
                     </div>
                     <!-- ./Links -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" ria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#collapsibleNavbar" 
+                        ria-controls="basicExampleNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </nav>
             </div>
@@ -78,13 +86,19 @@
                                     <strong class="text-slider"></strong>
                                 </h3>
                             </div>
-                            <a href="./projects.html" target="_blank"><button type="button" class="btn btn-dark custom-btn mt-5" data-toggle="tooltip"
-                                data-placement="bottom" title="Click to go to Projects page!" >Check My Projects!</button></a>
-                            <!-- SET HREF TO GO TO PROJECTS PAGE !!!  -->
+                            <a href="./projects.html" target="_blank">
+                                <button 
+                                type="button" 
+                                class="btn btn-dark custom-btn mt-5" 
+                                data-toggle="tooltip"
+                                data-placement="bottom" 
+                                title="Click to go to Projects page!" >
+                                    Check My Projects!
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
-
             </main>
             <footer class="text-center d-flex flex-row justify-content-between">
                 <div class="d-flex justify-content-start align-items-center">
@@ -97,11 +111,6 @@
                     <i class="fas fa-copyright px-2 py-1"> Atta Jirofty</i>
                 </div>
             </footer>
-
-
-
-            <script src="./typed.js-master/lib/typed.min.js"></script>
-            <script src="jquery-3.5.1.min.js"></script>
             <script>
                 if ($(".text-slider").length == 1) {
                     var typed_strings = $(".text-slider-items").text();
