@@ -60,7 +60,7 @@
                 <div class="row">
                     <div class="col-6 text-center">
                         <div class="heading">
-                            <h1>My Projects</h1>
+                            <h1 class=" wow tada">My Projects</h1>
                             <h5>Here you can visit my best projects</h5>
                         </div>
                     </div>
@@ -73,27 +73,46 @@
                         <div class="glide">
                             <div class="glide__track" data-glide-el="track">
                             <ul class="glide__slides py-5">
-                                <li class="glide__slide">
-                                    <button class="glide-button-image" type="button" data-toggle="tooltip"
-                                    data-placement="top" title="Click to see details"> 
+                                <li class="glide__slide text-center">
+                                      <a data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" title="Click for details" href="#motherNatureDetails" aria-expanded="false" aria-controls="motherNatureDetails">
                                         <img class="img-fluid" src="./image/Carousel/mother nature.png" alt="Mother Nature Project">
-                                    </button>
-
+                                      </a>
+                                      
                                     <p class="text-monospace font-weight-bolder text-center text-white pt-3">Mother Nature</p>
+                                    <div class="collapse" id="motherNatureDetails">
+                                        <div class="project-detail card card-body text-justify bg-dark">
+                                          This is my first project. It's not much but I used Bootstrap for the first time.<br>
+                                          to visit Mother Nature source code<a href="https://github.com/attajey/Mother-Nature" target="__blank"> Click here </a> 
+                                        </div>
+                                    </div>
                                 </li>
-                                <li class="glide__slide">
-                                    <button class="glide-button-image" type="button" data-toggle="tooltip"
-                                    data-placement="top" title="Click to see details">
-                                    <img class=" img-fluid" src="./image/Carousel/pet nurse 2.png" alt="Pet Nurse Project">
-                                    </button>
+                                <li class="glide__slide text-center">
+                                    <a data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" title="Click for details"  href="#petNurseDetails" aria-expanded="false" aria-controls="petNurseDetails">
+                                        <img class=" img-fluid" src="./image/Carousel/pet nurse 2.png" alt="Pet Nurse Project">
+                                    </a>
                                     <p class="text-monospace font-weight-bolder text-center text-white pt-3">Pet Nurse</p>
+                                    <div class="collapse" id="petNurseDetails">
+                                        <div class="project-detail card card-body text-justify bg-dark">
+                                          This is my first Wordpress project. Although I didn't design the theme. I bought it for the shop owner and designed all the contents and components.
+                                          Also content management was one of my responsibilities. This project is currently live on world wide web.<br>
+                                          to visit Pet Nurse website<a href="https://petnurse.ir/" target="__blank"> Click here </a> 
+                                        </div>
+                                    </div>
+
                                 </li>
-                                <li class="glide__slide">
-                                    <button class="glide-button-image" type="button" data-toggle="tooltip"
-                                    data-placement="top" title="Click to see details">
-                                    <img class=" img-fluid" src="./image/Carousel/Profile.png" alt="Profile Project">
-                                    </button>
+                                <li class="glide__slide text-center">
+                                    <a data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" title="Click for details"  href="#profileDetails" aria-expanded="false" aria-controls="profileDetails">
+                                        <img class=" img-fluid" src="./image/Carousel/Profile.png" alt="Profile Project">
+                                    </a>
                                     <p class="text-monospace font-weight-bolder text-center text-white pt-3">Profile</p>
+                                    <div class="collapse" id="profileDetails">
+                                        <div class="project-detail card card-body text-justify bg-dark">
+                                          This is my first Internship project for a company named<a href="https://profile.ir/" target="__blank">Profile.</a>
+                                          It's a pure Flexbox design & I didn't use Bootstrap.<br>For Carousels & Sliders I used <a href="https://swiperjs.com/" target="__blank">Swipper.js.</a>
+                                          Also I implemented a simple Dark Mode button with JS.<br>
+                                          to visit Profile source code<a href="https://github.com/attajey/Profile" target="__blank"> Click here </a> 
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                             </div>
@@ -105,9 +124,30 @@
                     </div>
                 </div>
             </div>
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="row text-center">
+                    <h3 class="text-white pt-3 text-monospace">
+                        <span class="text-slider-items">
+                            Also I have some cool programming projects on my Github
+                        </span>
+                        <strong class="text-slider"></strong>
+                    </h3>
+                </div>
+            </div>
 
             
         </main>
+        <footer class="text-center d-flex flex-row justify-content-between">
+            <div class="d-flex justify-content-start align-items-center">
+                <i class="fab fa-bootstrap px-2" style="color: #8411f6;"></i>
+                <i class="fab fa-js-square px-2" style="color: #efd81d;"></i>
+                <i class="fab fa-html5 px-2" style="color: #dd4b25;"></i>
+                <i class="fab fa-css3-alt px-2" style="color: #254bdd;"></i>
+            </div>
+            <div class="d-flex justify-content-end align-items-center">
+                <i class="fas fa-copyright px-2 py-1"> Atta Jirofty</i>
+            </div>
+        </footer>
         <script src="js/glide.min.js"></script>
         <script>
             const config = {
@@ -129,6 +169,18 @@
             new Glide('.glide', config).mount()
         
         </script>
+                <script>
+                    if ($(".text-slider").length == 1) {
+                        var typed_strings = $(".text-slider-items").text();
+                        var typed = new Typed(".text-slider", {
+                            strings: typed_strings.split(", "),
+                            typeSpeed: 30,
+                            loop: true,
+                            backDelay: 2000,
+                            backSpeed: 100,
+                        });
+                    }
+                </script>
 
     </body>
 </html>

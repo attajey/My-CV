@@ -110,6 +110,7 @@ aside {
   box-sizing: border-box;
 }
 
+
 @keyframes fademovie {
   from {
     opacity: 0;
@@ -191,9 +192,13 @@ aside {
 body {
   margin: 0px;
   font-size: 13.5px;
-  font-family: fantasy, sans-serif;
+  /* font-family: fantasy, sans-serif; */
   animation: fademovie 0.5s ease 0s 1 normal;
   background-color: #c5c6c7;
+}
+
+footer {
+  background-color:#02060a;
 }
 
 a {
@@ -281,6 +286,10 @@ a {
   opacity: 0.8;
 }
 
+.project-detail{
+  border-radius: 20px !important;
+}
+
 /* ABOUT ME STYLES */
 .profile-pic {
   border-radius: 100%;
@@ -298,12 +307,12 @@ a {
 
 /* CONTACT ME STYLES */
 .contact-icons {
-  width: 10%;
+  color: #c5c6c7;
+  padding: 10px 10px;
 }
 .social-icons {
-  /* width: 16%; */
-  height: 60%;
   padding: 10px 10px;
+  color: #c5c6c7;
 }
 .social-links {
   padding: 20px 20px;
