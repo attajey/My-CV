@@ -20,6 +20,11 @@
     background-size: cover;
     color: black;
   }
+  .bg-pic-contact {
+    background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
   .heading h3 {
     font-size: 5vw;
   }
@@ -60,6 +65,11 @@
     background-size: cover;
     color: black;
   }
+  .bg-pic-contact {
+    background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
   .heading h3 {
     font-size: 5vw;
   }
@@ -97,6 +107,11 @@
     background-size: cover;
     color: black;
   }
+  .bg-pic-contact {
+    background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
+    background-size: cover;
+    color: black;
+  }
   .heading h1 {
     font-size: 6vw;
   }
@@ -120,6 +135,12 @@
     background: url("../image/Circuit\ Primary-3.svg") no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/Circuit\ Primary-3.svg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
     color: black;
   }
   .heading h1 {
@@ -147,6 +168,12 @@
     background-size: cover;
     color: black;
   }
+  .bg-pic-contact {
+    background: url("../image/Circuit\ Primary-3.svg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    color: black;
+  }
   .heading h1 {
     font-size: 6vw;
   }
@@ -167,6 +194,12 @@
     background: url("../image/Circuit\ Primary.svg") no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+  }
+  .bg-pic-contact {
+    background: url("../image/Circuit\ Primary-3.svg") no-repeat center center;
+    background-size: cover;
+    height: 100%;
     color: black;
   }
   .heading h1 {
