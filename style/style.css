@@ -4,7 +4,6 @@
     background: url("../image/Circuit\ Primary-6.svg") no-repeat center center;
     background-size: cover;
     height: 100%;
-    /* background-attachment: fixed; */
     color: black;
   }
   .text-slider {
@@ -13,14 +12,12 @@
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-6.svg") no-repeat center center;
     background-size: cover;     
-    /* height: 100%; */
     color: black;
   }
   .bg-pic-about {
     background: url("../image/Circuit\ Primary-6.svg") no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100%; */
     color: black;
   }
   .heading h3 {
@@ -43,12 +40,10 @@
   }
 }
 @media all and (min-width:376px) and (max-width: 575px){
-  /* For All Mobile */
   .bg-pic {
     background: url("../image/Circuit\ Primary-5.svg") no-repeat center center;
     background-size: cover;
     height: 100%;
-    /* background-attachment: fixed; */
     color: black;
   }
   .text-slider {
@@ -57,14 +52,12 @@
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-5.svg") no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
     color: black;
   }
   .bg-pic-about {
     background: url("../image/Circuit\ Primary-5.svg") no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100%; */
     color: black;
   }
   .heading h3 {
@@ -96,14 +89,12 @@
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
     color: black;
   }
   .bg-pic-about {
     background: url("../image/Circuit\ Primary-4.svg") no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100%; */
     color: black;
   }
   .heading h1 {
@@ -112,7 +103,6 @@
   .heading h3 {
     font-size: 8vw;
   }
-  
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .bg-pic {
@@ -121,19 +111,15 @@
     height: 100%;
     color: black;
   }
-
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-3.svg") no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
-
     color: black;
   }
   .bg-pic-about {
     background: url("../image/Circuit\ Primary-3.svg") no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100%; */
     color: black;
   }
   .heading h1 {
@@ -141,7 +127,6 @@
   }
   .heading h3 {
     font-size: 6vw;
-
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
@@ -154,14 +139,12 @@
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-2.svg") no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
     color: black;
   }
   .bg-pic-about {
     background: url("../image/Circuit\ Primary-2.svg") no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100%; */
     color: black;
   }
   .heading h1 {
@@ -178,14 +161,12 @@
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary.svg") no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
     color: black;
   }
   .bg-pic-about {
     background: url("../image/Circuit\ Primary.svg") no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100%; */
     color: black;
   }
   .heading h1 {
@@ -195,7 +176,6 @@
     font-size: 5vh;
   }
 }
-/* Media is not needed yet !  */
 div,
 header,
 footer,
@@ -205,7 +185,6 @@ nav,
 aside {
   box-sizing: border-box;
 }
-
 @keyframes fademovie {
   from {
     opacity: 0;
@@ -214,7 +193,6 @@ aside {
     opacity: 1;
   }
 }
-
 @keyframes fade-port-cap {
   from {
     opacity: 0;
@@ -223,11 +201,9 @@ aside {
     opacity: 1;
   }
 }
-/* 
 #after-load {
   display: none;
-} */
-
+}
 #box {
   display: block;
   position: absolute;
@@ -235,55 +211,6 @@ aside {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.loader-ul {
-  list-style: none;
-  display: flex;
-}
-.loader-li {
-  position: relative;
-  width: 10px;
-  height: 10px;
-  background: linear-gradient(135deg, #0e2946 0%, #000102 100%);
-  border-radius: 50%;
-  margin: 5px;
-}
-.loader-li::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
-  background: linear-gradient(135deg, #0e2946 0%, #000102 100%);
-  clip-path: circle(0 at 50% 50%);
-  opacity: 0.3;
-  animation: effect 0.7s linear infinite alternate;
-}
-.loader-li:nth-child(1)::before {
-  animation-delay: 0.1s;
-}
-.loader-li:nth-child(2)::before {
-  animation-delay: 0.2s;
-}
-.loader-li:nth-child(3)::before {
-  animation-delay: 0.3s;
-}
-.loader-li:nth-child(4)::before {
-  animation-delay: 0.4s;
-}
-.loader-li:nth-child(5)::before {
-  animation-delay: 0.5s;
-}
-@keyframes effect {
-  0% {
-    clip-path: circle(0 at 50% 50%);
-  }
-  100% {
-    clip-path: circle(50%);
-  }
-}
-
 body {
   margin: 0px;
   font-size: 13.5px;
@@ -293,22 +220,23 @@ body {
 footer {
   background-color:#02060a;
 }
+footer p {
+  font-size: small;
+  font-weight: lighter;
+}
 a {
   text-decoration: none !important;
 }
-
 .custom-menu {
   direction: rtl;
   color: #0d2844;
 }
-
 .logo {
-  border: 3px solid #3a7cc3;
+  border: 3px solid #00FF23;
   border-radius: 2vh;
   color: #0d2844;
   padding: 0px 10px;
 }
-
 .text-slider-items {
   display: none;
 }
@@ -320,16 +248,13 @@ a {
   color: #00FF23;
   font-weight: bold;
 }
-
 .heading h3 {
   color: #c5c6c7;
   font-size: 5vh;
   margin-top: 6vh;
-  /* height: 10vh; */
 }
 .heading h5 {
   color: #c5c6c7;
-  /* font-size: 3vh; */
   font-weight: bold;
 }
 .custom-btn {
@@ -345,13 +270,6 @@ a {
 }
 
 /* PROJECT STYLES */
-/* 
-.bg-pic-projects {
-  background: url("../image/Circuit\ Primary.svg") no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  color: black;
-} */
 .project-heading {
   display: flex;
   flex-direction: column;
@@ -359,7 +277,6 @@ a {
   height: 100%;
   color: #3a7cc3;
 }
-
 .custom-carousel {
   padding-top: 55vh;
 }
@@ -368,9 +285,6 @@ a {
   transition: all 0.2s ease-out;
   border:papayawhip
 }
-/* .glide img:hover{
-  opacity: 0.9;
-} */
 .glide-button-image {
   border-radius: 20%;
   margin: 0px 10px;
@@ -382,11 +296,9 @@ a {
   transform: scale(1.04, 1.04);
   opacity: 0.8;
 }
-
 .project-detail{
   border-radius: 20px !important;
 }
-
 /* ABOUT ME STYLES */
 .profile-pic {
   border-radius: 100%;
@@ -394,16 +306,8 @@ a {
   height: 50%;
 }
 .icon {
-  /* width: 10%; */
-  /* padding: 0px 2vw; */
   padding-right: 20px;
 }
-
-/* .skills-title {
-  width: 7vw;
-  text-align: center;
-} */
-
 /* CONTACT ME STYLES */
 .contact-icons {
   color: #c5c6c7;
@@ -413,20 +317,12 @@ a {
   padding: 10px 10px;
   color: #c5c6c7;
 }
-/* .social-links {
-  padding: 20px 20px;
-  width: 15%;
-} */
-
 .msg-form {
   border-radius: 20px !important;
 }
-
 .form{
   border-radius: 20px !important;
-
 }
 address {
   color: #0074f2;
 }
-
