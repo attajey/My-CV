@@ -6,16 +6,13 @@
     height: 100%;
     color: black;
   }
-  .heading {
-    margin-top: 21vh;
-    text-align: center;
+  .text-slider {
+    font-size: 5vw;
   }
-
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-
     color: black;
   }
 }
@@ -26,16 +23,10 @@
     height: 100%;
     color: black;
   }
-  .heading {
-    margin-top: 21vh;
-    text-align: center;
-  }
-
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-4.svg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-
     color: black;
   }
 }
@@ -45,10 +36,6 @@
     background-size: cover;
     height: 100%;
     color: black;
-  }
-  .heading {
-    margin-top: 21vh;
-    text-align: center;
   }
 
   .bg-pic-projects {
@@ -67,11 +54,6 @@
     height: 100%;
     color: black;
   }
-  .heading {
-    margin-top: 21vh;
-    text-align: center;
-  }
-
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary-2.svg") no-repeat center center;
     background-size: cover;
@@ -86,10 +68,6 @@
     background-size: cover;
     height: 100%;
     color: black;
-  }
-  .heading {
-    margin-top: 21vh;
-    text-align: center;
   }
   .bg-pic-projects {
     background: url("../image/Circuit\ Primary.svg") no-repeat center center;
@@ -192,7 +170,6 @@ aside {
 body {
   margin: 0px;
   font-size: 13.5px;
-  /* font-family: fantasy, sans-serif; */
   animation: fademovie 0.5s ease 0s 1 normal;
   background-color: #c5c6c7;
 }
@@ -220,15 +197,20 @@ a {
 .text-slider-items {
   display: none;
 }
+.heading {
+  padding-top: 5vh;
+  text-align: center;
+}
 .heading h1 {
   color: #3a7cc3;
-  font-size: 12vh;
+  font-weight: bold;
 }
 
 .heading h3 {
   color: #dd1133;
   font-size: 5vh;
   margin-top: 8vh;
+  height: 10vh;
 }
 .heading h5 {
   color: #dd1133;
