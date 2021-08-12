@@ -1,5 +1,5 @@
 # My-CV
 This is my CV 
 
-For Chats I used this source : 
+I used this source for making charts in about.html : 
 http://circle.firchow.net/
